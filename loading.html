@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading - PokePast</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Loading</h1>
+            <p>Page de stratégie Loading</p>
+        </header>
+        
+        <main>
+            <div class="content">
+                <h2>Page Loading</h2>
+                <p>Cette page est dédiée aux stratégies Jrm dans Pokémon.</p>
+                <div class="loading-section">
+                    <h3>Ressources disponibles</h3>
+                    <ul>
+                        <li>OU</li>
+                        <li id="natdex-btn" style="cursor:pointer;">NATDEX</li>
+                        <li>NATDEX G8</li>
+                        <li>UU</li>
+                        <li>NU</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="navigation">
+                <button class="btn btn-green" onclick="window.location.href='index.html'">
+                    Retour à l'accueil
+                </button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 PokePast - Stratégie Pokémon</p>
+            <p>By Jrm & Loading</p>
+        </footer>
+    </div>
+    <div id="natdex-popup" class="popup-overlay" style="display:none;">
+        <div class="popup-content">
+            <span class="popup-title">NATDEX 9G</span>
+            <span id="close-popup" class="close-btn">🚪 Sortir</span>
+        </div>
+    </div>
+    <script>
+        const natdexBtn = document.getElementById('natdex-btn');
+        const popup = document.getElementById('natdex-popup');
+        const closeBtn = document.getElementById('close-popup');
+        natdexBtn.addEventListener('click', () => {
+            popup.style.display = 'flex';
+        });
+        closeBtn.addEventListener('click', () => {
+            popup.style.display = 'none';
+        });
+        window.addEventListener('click', (e) => {
+            if (e.target === popup) {
+                popup.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html> 

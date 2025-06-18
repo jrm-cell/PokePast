@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: #ffd700;
+}
+
+header p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.button-container {
+    display: flex;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.btn {
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.btn-red {
+    background: linear-gradient(45deg, #ff4444, #cc0000);
+    color: white;
+}
+
+.btn-red:hover {
+    background: linear-gradient(45deg, #ff6666, #ff0000);
+}
+
+.btn-green {
+    background: linear-gradient(45deg, #44ff44, #00cc00);
+    color: white;
+}
+
+.btn-green:hover {
+    background: linear-gradient(45deg, #66ff66, #00ff00);
+}
+
+.content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.content p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.strategy-section, .loading-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px 0;
+    border: 2px solid #ffd700;
+}
+
+.strategy-section h3, .loading-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+.strategy-section ul, .loading-section ul {
+    list-style: none;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.strategy-section li, .loading-section li {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.strategy-section li:last-child, .loading-section li:last-child {
+    border-bottom: none;
+}
+
+.strategy-section li:hover, .loading-section li:hover {
+    background-color: #ffd700;
+    color: #222;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.navigation {
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .button-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .btn {
+        padding: 12px 30px;
+        font-size: 1.2rem;
+    }
+    
+    .content h2 {
+        font-size: 2rem;
+    }
+    
+    .content p {
+        font-size: 1.1rem;
+    }
+    
+    .strategy-section, .loading-section {
+        padding: 20px;
+        margin: 20px 0;
+    }
+}
+
+/* Popup plein écran pour NATDEX */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: #fff;
+    color: #222;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    font-size: 2.2rem;
+    color: #fff;
+    background: orange;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+    z-index: 1010;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+.close-btn:hover {
+    background: #ff8800;
+    color: #222;
+}
+
+.popup-title {
+    position: absolute;
+    top: 18px;
+    left: 24px;
+    font-size: 1.3rem;
+    color: orange;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 1010;
+}

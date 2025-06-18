@@ -663,3 +663,441 @@ footer {
     margin-bottom: 8px;
     letter-spacing: 1px;
 }
+
+.ou-black {
+    background: #111 !important;
+    color: #fff !important;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+.ou-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 48px 0 0 0;
+}
+.ou-card {
+    background: #222;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    padding: 36px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 620px;
+    max-width: 99vw;
+    width: 620px;
+    min-height: 700px;
+}
+.ou-card-img {
+    width: 600px;
+    max-width: 98vw;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    background: #fff;
+}
+.ou-card-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.ou-btn-action {
+    background: #ffd700;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+.ou-btn-action:hover {
+    background: #ffec80;
+    color: #111;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+.ou-card-number {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.ou-team-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+.ou-by {
+    margin: 8px 0 12px 0;
+    color: #ffd700;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.ou-sets-block {
+    width: 100%;
+    margin: 8px 0 12px 0;
+    background: #181818;
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 8px;
+}
+.ou-sets-block textarea {
+    width: 100%;
+    min-height: 120px;
+    max-height: 320px;
+    border: none;
+    background: transparent;
+    color: #ffd700;
+    font-size: 1rem;
+    font-family: 'Consolas', 'monospace';
+    resize: vertical;
+    outline: none;
+    pointer-events: auto;
+    overflow-y: auto;
+    cursor: text;
+}
+.ou-copy-msg {
+    margin-left: 8px;
+    color: #4fc3f7;
+    font-size: 1rem;
+    font-weight: bold;
+    vertical-align: middle;
+    display: block;
+    margin-top: 6px;
+}
+@media (max-width: 900px) {
+    .ou-grid {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .ou-card {
+        min-width: 0;
+        max-width: 99vw;
+        width: 99vw;
+        min-height: 0;
+    }
+    .ou-card-img {
+        width: 99vw;
+        max-width: 99vw;
+    }
+}
+
+.nu-black {
+    background: #111 !important;
+    color: #fff !important;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+.nu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 48px 0 0 0;
+}
+.nu-card {
+    background: #222;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    padding: 36px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 620px;
+    max-width: 99vw;
+    width: 620px;
+    min-height: 700px;
+}
+.nu-card-img {
+    width: 600px;
+    max-width: 98vw;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    background: #fff;
+}
+.nu-card-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.nu-btn-action {
+    background: #ffd700;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+.nu-btn-action:hover {
+    background: #ffec80;
+    color: #111;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+.nu-card-number {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.nu-team-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+.nu-by {
+    margin: 8px 0 12px 0;
+    color: #ffd700;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.nu-sets-block {
+    width: 100%;
+    margin: 8px 0 12px 0;
+    background: #181818;
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 8px;
+}
+.nu-sets-block textarea {
+    width: 100%;
+    min-height: 120px;
+    max-height: 320px;
+    border: none;
+    background: transparent;
+    color: #ffd700;
+    font-size: 1rem;
+    font-family: 'Consolas', 'monospace';
+    resize: vertical;
+    outline: none;
+    pointer-events: auto;
+    overflow-y: auto;
+    cursor: text;
+}
+.nu-copy-msg {
+    margin-left: 8px;
+    color: #4fc3f7;
+    font-size: 1rem;
+    font-weight: bold;
+    vertical-align: middle;
+    display: block;
+    margin-top: 6px;
+}
+@media (max-width: 900px) {
+    .nu-grid {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .nu-card {
+        min-width: 0;
+        max-width: 99vw;
+        width: 99vw;
+        min-height: 0;
+    }
+    .nu-card-img {
+        width: 99vw;
+        max-width: 99vw;
+    }
+}
+
+.uu-black {
+    background: #111 !important;
+    color: #fff !important;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+.uu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 48px 0 0 0;
+}
+.uu-card {
+    background: #222;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    padding: 36px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 620px;
+    max-width: 99vw;
+    width: 620px;
+    min-height: 700px;
+}
+.uu-card-img {
+    width: 600px;
+    max-width: 98vw;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    background: #fff;
+}
+.uu-card-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.uu-btn-action {
+    background: #ffd700;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+.uu-btn-action:hover {
+    background: #ffec80;
+    color: #111;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+.uu-card-number {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.uu-team-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+.uu-by {
+    margin: 8px 0 12px 0;
+    color: #ffd700;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.uu-sets-block {
+    width: 100%;
+    margin: 8px 0 12px 0;
+    background: #181818;
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 8px;
+}
+.uu-sets-block textarea {
+    width: 100%;
+    min-height: 120px;
+    max-height: 320px;
+    border: none;
+    background: transparent;
+    color: #ffd700;
+    font-size: 1rem;
+    font-family: 'Consolas', 'monospace';
+    resize: vertical;
+    outline: none;
+    pointer-events: auto;
+    overflow-y: auto;
+    cursor: text;
+}
+.uu-copy-msg {
+    margin-left: 8px;
+    color: #4fc3f7;
+    font-size: 1rem;
+    font-weight: bold;
+    vertical-align: middle;
+    display: block;
+    margin-top: 6px;
+}
+@media (max-width: 900px) {
+    .uu-grid {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .uu-card {
+        min-width: 0;
+        max-width: 99vw;
+        width: 99vw;
+        min-height: 0;
+    }
+    .uu-card-img {
+        width: 99vw;
+        max-width: 99vw;
+    }
+}

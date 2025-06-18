@@ -20,7 +20,7 @@
                 <div class="loading-section">
                     <h3>Ressources disponibles</h3>
                     <ul>
-                        <li>OU</li>
+                        <li id="ou-btn" style="cursor:pointer; font-weight:bold;">OU</li>
                         <li id="natdex-btn" style="cursor:pointer;">NATDEX</li>
                         <li>NATDEX G8</li>
                         <li>UU</li>
@@ -503,237 +503,1358 @@ Jolly Nature
                         <span class="natdex-copy-msg" id="copy-msg-6" style="display:none;">Lien copié dans le presse-papier</span>
                     </div>
                 </div>
+                <div class="natdex-card">
+                    <div class="natdex-card-number">Case 7</div>
+                    <div class="natdex-team-name">mawile 4atk</div>
+                    <img src="mawile-4atk.png" alt="Case 7" class="natdex-card-img">
+                    <div class="natdex-card-btns">
+                        <button class="natdex-btn" id="by-btn-7">By :</button>
+                        <div class="natdex-by" id="by-block-7" style="display:none;">Loading Revenge</div>
+                        <button class="natdex-btn" id="sets-btn-7">Sets</button>
+                        <div class="natdex-sets-block" id="sets-block-7" style="display:none;">
+<textarea readonly>Mawile-Mega @ Mawilite
+Ability: Intimidate
+Tera Type: Steel
+EVs: 36 HP / 252 Atk / 220 Spe
+Adamant Nature
+- Play Rough
+- Ice Punch
+- Thunder Punch
+- Knock Off
+
+Tapu Lele @ Assault Vest
+Ability: Psychic Surge
+Tera Type: Psychic
+EVs: 80 HP / 44 Def / 252 SpA / 16 SpD / 116 Spe
+Modest Nature
+IVs: 0 Atk
+- Psyshock
+- Moonblast
+- Focus Blast
+- Hidden Power [Fire]
+
+Landorus-Therian @ Rocky Helmet
+Ability: Intimidate
+Tera Type: Water
+EVs: 248 HP / 116 Def / 8 SpD / 136 Spe
+Impish Nature
+- Earthquake
+- U-turn
+- Taunt
+- Stealth Rock
+
+Hatterene (F) @ Psychium Z
+Ability: Magic Bounce
+Tera Type: Psychic
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+IVs: 0 Atk / 0 Spe
+- Psychic
+- Dazzling Gleam
+- Mystical Fire
+- Trick Room
+
+Ogerpon-Wellspring (F) @ Wellspring Mask
+Ability: Water Absorb
+Tera Type: Water
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Ivy Cudgel
+- Power Whip
+- Encore
+
+Zamazenta @ Leftovers
+Ability: Dauntless Shield
+Tera Type: Steel
+EVs: 92 HP / 180 Def / 236 Spe
+Jolly Nature
+- Body Press
+- Iron Defense
+- Substitute
+- Heavy Slam
+</textarea>
+                        </div>
+                        <button class="natdex-btn" id="copy-link-btn-7">Copier le lien</button>
+                        <span class="natdex-copy-msg" id="copy-msg-7" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
+                <div class="natdex-card">
+                    <div class="natdex-card-number">Case 8</div>
+                    <div class="natdex-team-name">Untitled 1630</div>
+                    <img src="Untitled1630.png" alt="Case 8" class="natdex-card-img">
+                    <div class="natdex-card-btns">
+                        <button class="natdex-btn" id="by-btn-8">By :</button>
+                        <div class="natdex-by" id="by-block-8" style="display:none;">Nowelle</div>
+                        <button class="natdex-btn" id="sets-btn-8">Sets</button>
+                        <div class="natdex-sets-block" id="sets-block-8" style="display:none;">
+<textarea readonly>Hoopa-Unbound @ Choice Band
+Ability: Magician
+Tera Type: Dark
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Hyperspace Fury
+- Knock Off
+- Zen Headbutt
+- Gunk Shot
+
+Landorus-Therian (M) @ Rocky Helmet
+Ability: Intimidate
+Tera Type: Water
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Earthquake
+- U-turn
+- Stealth Rock
+- Defog
+
+Slowbro @ Heavy-Duty Boots
+Ability: Regenerator
+Tera Type: Steel
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Scald
+- Future Sight
+- Slack Off
+- Teleport
+
+Lopunny-Mega @ Lopunnite
+Ability: Limber
+Tera Type: Normal
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Return
+- Fake Out
+- Ice Punch
+
+Ferrothorn @ Leftovers
+Ability: Iron Barbs
+Tera Type: Ghost
+EVs: 252 HP / 40 Def / 216 SpD
+Impish Nature
+- Spikes
+- Leech Seed
+- Power Whip
+- Gyro Ball
+
+Tapu Koko @ Heavy-Duty Boots
+Ability: Electric Surge
+Tera Type: Electric
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- U-turn
+- Hidden Power [Ice]
+- Roost
+</textarea>
+                        </div>
+                        <button class="natdex-btn" id="copy-link-btn-8">Copier le lien</button>
+                        <span class="natdex-copy-msg" id="copy-msg-8" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ou-popup" class="popup-overlay" style="display:none;">
+        <div class="popup-content ou-black">
+            <div class="popup-header">
+                <span class="popup-title">OU 9G</span>
+                <button id="close-ou-popup" class="return-btn">⬅️ Retour</button>
+            </div>
+            <div class="ou-grid">
+                <div class="ou-card">
+                    <div class="ou-card-number">Case 1</div>
+                    <div class="ou-team-name">Twave Latios Wish Alo CB Sciz Lu Gweez Fight Pecha Fat</div>
+                    <img src="twave-Latios-Wish.png" alt="Case 1" class="ou-card-img">
+                    <div class="ou-card-btns">
+                        <button class="ou-btn-action" id="ou-by-btn-1">By :</button>
+                        <div class="ou-by" id="ou-by-block-1" style="display:none;">Nowelle</div>
+                        <button class="ou-btn-action" id="ou-sets-btn-1">Sets</button>
+                        <div class="ou-sets-block" id="ou-sets-block-1" style="display:none;">
+<textarea readonly>Alomomola @ Heavy-Duty Boots
+Ability: Regenerator
+Tera Type: Ghost
+EVs: 40 HP / 216 Def / 252 SpD
+Relaxed Nature
+IVs: 0 Spe
+- Scald
+- Flip Turn
+- Wish
+- Protect
+
+Scizor @ Choice Band
+Ability: Technician
+Tera Type: Steel
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Bullet Punch
+- U-turn
+- Knock Off
+- Dual Wingbeat
+
+Latios @ Soul Dew
+Ability: Levitate
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Psychic Noise
+- Thunder Wave
+- Recover
+
+Ting-Lu @ Leftovers
+Ability: Vessel of Ruin
+Tera Type: Water
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Stealth Rock
+- Earthquake
+- Payback
+- Whirlwind
+
+Pecharunt @ Heavy-Duty Boots
+Ability: Poison Puppeteer
+Tera Type: Fighting
+EVs: 248 HP / 8 Def / 252 Spe
+Timid Nature
+- Malignant Chain
+- Tera Blast
+- Hex
+- Recover
+
+Weezing-Galar @ Heavy-Duty Boots
+Ability: Neutralizing Gas
+Tera Type: Dragon
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Strange Steam
+- Defog
+- Sludge Bomb
+- Will-O-Wisp
+</textarea>
+                        </div>
+                        <button class="ou-btn-action" id="ou-copy-link-btn-1">Copier le lien</button>
+                        <span class="ou-copy-msg" id="ou-copy-msg-1" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
+                <div class="ou-card">
+                    <div class="ou-card-number">Case 2</div>
+                    <div class="ou-team-name">Reacher</div>
+                    <img src="Reacher.png" alt="Case 2" class="ou-card-img">
+                    <div class="ou-card-btns">
+                        <button class="ou-btn-action" id="ou-by-btn-2">By :</button>
+                        <div class="ou-by" id="ou-by-block-2" style="display:none;">Loading Revenge</div>
+                        <button class="ou-btn-action" id="ou-sets-btn-2">Sets</button>
+                        <div class="ou-sets-block" id="ou-sets-block-2" style="display:none;">
+<textarea readonly>Slowking-Galar @ Shuca Berry
+Ability: Regenerator
+Tera Type: Grass
+EVs: 252 HP / 236 Def / 20 SpD
+Relaxed Nature
+IVs: 0 Atk / 0 Spe
+- Sludge Bomb
+- Chilly Reception
+- Ice Beam
+- Future Sight
+
+Corviknight @ Rocky Helmet
+Ability: Pressure
+Tera Type: Dragon
+EVs: 248 HP / 252 Def / 8 SpD
+Impish Nature
+IVs: 0 Atk
+- Iron Defense
+- Defog
+- Body Press
+- Roost
+
+Skeledirge @ Heavy-Duty Boots
+Ability: Unaware
+Shiny: Yes
+Tera Type: Dark
+EVs: 248 HP / 8 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Torch Song
+- Slack Off
+- Will-O-Wisp
+- Hex
+
+Ting-Lu @ Leftovers
+Ability: Vessel of Ruin
+Tera Type: Poison
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Payback
+- Rest
+- Sleep Talk
+
+Hydrapple (M) @ Heavy-Duty Boots
+Ability: Regenerator
+Tera Type: Fairy
+EVs: 244 HP / 172 Def / 88 SpA / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Nasty Plot
+- Fickle Beam
+- Giga Drain
+- Earth Power
+
+Zamazenta @ Leftovers
+Ability: Dauntless Shield
+Tera Type: Fire
+EVs: 252 HP / 252 Def / 4 Spe
+Impish Nature
+- Iron Defense
+- Body Press
+- Crunch
+- Roar
+</textarea>
+                        </div>
+                        <button class="ou-btn-action" id="ou-copy-link-btn-2">Copier le lien</button>
+                        <span class="ou-copy-msg" id="ou-copy-msg-2" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
+                <div class="ou-card">
+                    <div class="ou-card-number">Case 3</div>
+                    <div class="ou-team-name">bird is the word - viivian</div>
+                    <img src="bird-is-the-word.png" alt="Case 3" class="ou-card-img">
+                    <div class="ou-card-btns">
+                        <button class="ou-btn-action" id="ou-by-btn-3">By :</button>
+                        <div class="ou-by" id="ou-by-block-3" style="display:none;">Loading Revenge</div>
+                        <button class="ou-btn-action" id="ou-sets-btn-3">Sets</button>
+                        <div class="ou-sets-block" id="ou-sets-block-3" style="display:none;">
+<textarea readonly>Dragonite @ Heavy-Duty Boots
+Ability: Multiscale
+Tera Type: Normal
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Outrage
+- Earthquake
+- Extreme Speed
+- Dragon Dance
+
+Kingambit @ Air Balloon
+Ability: Supreme Overlord
+Tera Type: Ghost
+EVs: 156 HP / 252 Atk / 4 SpD / 96 Spe
+Adamant Nature
+- Sucker Punch
+- Iron Head
+- Low Kick
+- Swords Dance
+
+Iron Moth @ Booster Energy
+Ability: Quark Drive
+Tera Type: Fairy
+EVs: 124 Def / 132 SpA / 252 Spe
+Timid Nature
+- Fiery Dance
+- Sludge Wave
+- Dazzling Gleam
+- Psychic
+
+Samurott-Hisui @ Focus Sash
+Ability: Sharpness
+Tera Type: Ghost
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Razor Shell
+- Ceaseless Edge
+- Knock Off
+- Sucker Punch
+
+Iron Valiant @ Booster Energy
+Ability: Quark Drive
+Tera Type: Steel
+EVs: 64 Atk / 192 SpA / 252 Spe
+Naive Nature
+- Moonblast
+- Close Combat
+- Knock Off
+- Destiny Bond
+
+Moltres-Galar @ Sitrus Berry
+Ability: Berserk
+Tera Type: Fairy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Fiery Wrath
+- Tera Blast
+- Nasty Plot
+- Agility
+</textarea>
+                        </div>
+                        <button class="ou-btn-action" id="ou-copy-link-btn-3">Copier le lien</button>
+                        <span class="ou-copy-msg" id="ou-copy-msg-3" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
+                <div class="ou-card">
+                    <div class="ou-card-number">Case 4</div>
+                    <div class="ou-team-name">sand ou</div>
+                    <img src="sand-ou.png" alt="Case 4" class="ou-card-img">
+                    <div class="ou-card-btns">
+                        <button class="ou-btn-action" id="ou-by-btn-4">By :</button>
+                        <div class="ou-by" id="ou-by-block-4" style="display:none;">Loading Revenge</div>
+                        <button class="ou-btn-action" id="ou-sets-btn-4">Sets</button>
+                        <div class="ou-sets-block" id="ou-sets-block-4" style="display:none;">
+<textarea readonly>Tyranitar @ Leftovers  
+Ability: Sand Stream  
+Tera Type: Flying  
+EVs: 252 HP / 16 Def / 240 SpD  
+Sassy Nature  
+- Stealth Rock  
+- Knock Off  
+- Ice Beam  
+- Dragon Tail  
+
+Keldeo @ Heavy-Duty Boots  
+Ability: Justified  
+Tera Type: Water  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Surf  
+- Aura Sphere  
+- Vacuum Wave  
+- Flip Turn  
+
+Excadrill @ Air Balloon  
+Ability: Sand Rush  
+Tera Type: Ground  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Earthquake  
+- Iron Head  
+- Rapid Spin  
+
+Slowking-Galar @ Assault Vest  
+Ability: Regenerator  
+Tera Type: Water  
+EVs: 252 HP / 16 Def / 144 SpA / 96 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Psychic Noise  
+- Sludge Bomb  
+- Flamethrower  
+- Ice Beam  
+
+Sinistcha @ Heavy-Duty Boots  
+Ability: Heatproof  
+Tera Type: Poison  
+EVs: 252 HP / 160 Def / 96 Spe  
+Bold Nature  
+- Matcha Gotcha  
+- Hex  
+- Strength Sap  
+- Foul Play  
+
+Skarmory @ Rocky Helmet  
+Ability: Sturdy  
+Tera Type: Dragon  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Body Press  
+- Whirlwind  
+- Roost  
+- Spikes  
+</textarea>
+                        </div>
+                        <button class="ou-btn-action" id="ou-copy-link-btn-4">Copier le lien</button>
+                        <span class="ou-copy-msg" id="ou-copy-msg-4" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
+                <div class="ou-card">
+                    <div class="ou-card-number">Case 5</div>
+                    <div class="ou-team-name">Latias Hardcore HO</div>
+                    <img src="Latias-Hardcore.png" alt="Case 5" class="ou-card-img">
+                    <div class="ou-card-btns">
+                        <button class="ou-btn-action" id="ou-by-btn-5">By :</button>
+                        <div class="ou-by" id="ou-by-block-5" style="display:none;">Loading Revenge</div>
+                        <button class="ou-btn-action" id="ou-sets-btn-5">Sets</button>
+                        <div class="ou-sets-block" id="ou-sets-block-5" style="display:none;">
+<textarea readonly>Glimmora @ Red Card  
+Ability: Toxic Debris  
+Tera Type: Ghost  
+EVs: 252 HP / 40 Def / 160 SpD / 56 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Power Gem  
+- Earth Power  
+- Stealth Rock  
+- Spikes  
+
+Zamazenta @ Leftovers  
+Ability: Dauntless Shield  
+Tera Type: Fire  
+EVs: 112 HP / 40 Atk / 104 Def / 252 Spe  
+Jolly Nature  
+- Iron Defense  
+- Body Press  
+- Crunch  
+- Substitute  
+
+Latias @ Leftovers  
+Ability: Levitate  
+Tera Type: Fairy  
+EVs: 208 HP / 148 Def / 68 SpA / 84 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Draining Kiss  
+- Stored Power  
+- Calm Mind  
+- Agility  
+
+Gholdengo @ Custap Berry  
+Ability: Good as Gold  
+Tera Type: Fairy  
+EVs: 192 HP / 92 SpA / 224 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Shadow Ball  
+- Thunderbolt  
+- Dazzling Gleam  
+
+Dragonite @ Heavy-Duty Boots  
+Ability: Multiscale  
+Tera Type: Normal  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Extreme Speed  
+- Earthquake  
+- Ice Spinner  
+
+Weavile @ Life Orb  
+Ability: Pickpocket  
+Tera Type: Ice  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Triple Axel  
+- Upper Hand  
+- Knock Off  
+</textarea>
+                        </div>
+                        <button class="ou-btn-action" id="ou-copy-link-btn-5">Copier le lien</button>
+                        <span class="ou-copy-msg" id="ou-copy-msg-5" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="nu-popup" class="popup-overlay" style="display:none;">
+        <div class="popup-content nu-black">
+            <div class="popup-header">
+                <span class="popup-title">NU 9G</span>
+                <button id="close-nu-popup" class="return-btn">⬅️ Retour</button>
+            </div>
+            <div class="nu-grid">
+                <div class="nu-card">
+                    <div class="nu-card-number">Case 1</div>
+                    <div class="nu-team-name">Offensive Rocks Pert + Worm WishPass</div>
+                    <img src="Offensive-Rock-PErt.png" alt="Case 1" class="nu-card-img">
+                    <div class="nu-card-btns">
+                        <button class="nu-btn-action" id="nu-by-btn-1">By :</button>
+                        <div class="nu-by" id="nu-by-block-1" style="display:none;">Loading Revenge</div>
+                        <button class="nu-btn-action" id="nu-sets-btn-1">Sets</button>
+                        <div class="nu-sets-block" id="nu-sets-block-1" style="display:none;">
+<textarea readonly>Swampert @ Leftovers  
+Ability: Torrent  
+Tera Type: Fairy  
+EVs: 200 HP / 252 Atk / 56 Spe  
+Adamant Nature  
+- Stealth Rock  
+- Knock Off  
+- Earthquake  
+- Ice Punch  
+
+Orthworm @ Leftovers  
+Ability: Earth Eater  
+Tera Type: Ghost  
+EVs: 252 HP / 120 Def / 136 Spe  
+Impish Nature  
+- Spikes  
+- Heavy Slam  
+- Body Press  
+- Iron Defense  
+
+Sylveon @ Leftovers  
+Ability: Cute Charm  
+Tera Type: Steel  
+EVs: 252 HP / 212 Def / 44 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Roar  
+- Moonblast  
+
+Tentacruel @ Leftovers  
+Ability: Liquid Ooze  
+Tera Type: Dark  
+EVs: 252 HP / 120 Def / 136 Spe  
+Jolly Nature  
+- Flip Turn  
+- Rapid Spin  
+- Knock Off  
+- Haze  
+
+Raikou @ Heavy-Duty Boots  
+Ability: Pressure  
+Tera Type: Fairy  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Thunderbolt  
+- Extrasensory  
+- Volt Switch  
+
+Heracross @ Choice Scarf  
+Ability: Moxie  
+Tera Type: Fighting  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Close Combat  
+- Megahorn  
+- Knock Off  
+- Earthquake  
+</textarea>
+                        </div>
+                        <button class="nu-btn-action" id="nu-copy-link-btn-1">Copier le lien</button>
+                        <span class="nu-copy-msg" id="nu-copy-msg-1" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
+                <div class="nu-card">
+                    <div class="nu-card-number">Case 2</div>
+                    <div class="nu-team-name">Specs Decid BO</div>
+                    <img src="Spec-Decid.png" alt="Case 2" class="nu-card-img">
+                    <div class="nu-card-btns">
+                        <button class="nu-btn-action" id="nu-by-btn-2">By :</button>
+                        <div class="nu-by" id="nu-by-block-2" style="display:none;">Loading Revenge</div>
+                        <button class="nu-btn-action" id="nu-sets-btn-2">Sets</button>
+                        <div class="nu-sets-block" id="nu-sets-block-2" style="display:none;">
+<textarea readonly>Kilowattrel @ Heavy-Duty Boots  
+Ability: Volt Absorb  
+Tera Type: Steel  
+EVs: 8 HP / 252 SpA / 248 Spe  
+Timid Nature  
+- Air Slash  
+- Discharge  
+- U-turn  
+- Roost  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+Tera Type: Fairy  
+EVs: 252 HP / 4 Atk / 252 Def  
+Impish Nature  
+- Stealth Rock  
+- Earthquake  
+- Flip Turn  
+- Roar  
+
+Klefki @ Leftovers  
+Ability: Magician  
+Tera Type: Water  
+EVs: 252 HP / 4 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Spikes  
+- Thunder Wave  
+- Foul Play  
+- Flash Cannon  
+
+Toxicroak @ Leftovers  
+Ability: Dry Skin  
+Tera Type: Dark  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Close Combat  
+- Knock Off  
+- Sucker Punch  
+
+Decidueye @ Choice Specs  
+Ability: Overgrow  
+Tera Type: Grass  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+- Leaf Storm  
+- Shadow Ball  
+- Giga Drain  
+- U-turn  
+
+Flygon @ Choice Scarf  
+Ability: Levitate  
+Tera Type: Steel  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Outrage  
+- U-turn  
+- Fire Punch  
+</textarea>
+                        </div>
+                        <button class="nu-btn-action" id="nu-copy-link-btn-2">Copier le lien</button>
+                        <span class="nu-copy-msg" id="nu-copy-msg-2" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="uu-popup" class="popup-overlay" style="display:none;">
+        <div class="popup-content uu-black">
+            <div class="popup-header">
+                <span class="popup-title">UU 9G</span>
+                <button id="close-uu-popup" class="return-btn">⬅️ Retour</button>
+            </div>
+            <div class="uu-grid">
+                <div class="uu-card">
+                    <div class="uu-card-number">Case 1</div>
+                    <div class="uu-team-name">Deoxys Speed LO Sand</div>
+                    <img src="test-UU.png" alt="Case 1" class="uu-card-img">
+                    <div class="uu-card-btns">
+                        <button class="uu-btn-action" id="uu-by-btn-1">By :</button>
+                        <div class="uu-by" id="uu-by-block-1" style="display:none;">Fathiryxi</div>
+                        <button class="uu-btn-action" id="uu-sets-btn-1">Sets</button>
+                        <div class="uu-sets-block" id="uu-sets-block-1" style="display:none;">
+<textarea readonly>Deoxys-Speed @ Life Orb  
+Ability: Pressure  
+Tera Type: Stellar  
+EVs: 32 HP / 252 SpA / 224 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Psycho Boost  
+- Focus Blast  
+- Thunderbolt  
+- Recover  
+
+Rotom-Wash @ Choice Scarf  
+Ability: Levitate  
+Tera Type: Fairy  
+EVs: 248 HP / 84 Def / 176 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Volt Switch  
+- Trick  
+- Pain Split  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+Tera Type: Ghost  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Stone Edge  
+- Knock Off  
+- Thunder Wave  
+- Stealth Rock  
+
+Skarmory @ Rocky Helmet  
+Ability: Sturdy  
+Tera Type: Dragon  
+EVs: 252 HP / 208 Def / 48 Spe  
+Impish Nature  
+- Body Press  
+- Brave Bird  
+- Spikes  
+- Roost  
+
+Excadrill @ Lum Berry  
+Ability: Sand Rush  
+Tera Type: Fairy  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Earthquake  
+- Iron Head  
+- Rapid Spin  
+
+Slither Wing @ Choice Band  
+Ability: Protosynthesis  
+Tera Type: Bug  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- First Impression  
+- Close Combat  
+- Flare Blitz  
+- U-turn  
+</textarea>
+                        </div>
+                        <button class="uu-btn-action" id="uu-copy-link-btn-1">Copier le lien</button>
+                        <span class="uu-copy-msg" id="uu-copy-msg-1" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
+                <div class="uu-card">
+                    <div class="uu-card-number">Case 2</div>
+                    <div class="uu-team-name">Test UU</div>
+                    <img src="test-UU.png" alt="Case 2" class="uu-card-img">
+                    <div class="uu-card-btns">
+                        <button class="uu-btn-action" id="uu-by-btn-2">By :</button>
+                        <div class="uu-by" id="uu-by-block-2" style="display:none;">Loading Revenge</div>
+                        <button class="uu-btn-action" id="uu-sets-btn-2">Sets</button>
+                        <div class="uu-sets-block" id="uu-sets-block-2" style="display:none;">
+<textarea readonly>DUST STORM (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+Tera Type: Fairy  
+EVs: 252 HP / 28 Atk / 228 SpD  
+Careful Nature  
+- Stone Edge  
+- Crunch  
+- Earthquake  
+- Thunder Wave  
+
+DIVA OF DESPAIR (Gengar) @ Choice Specs  
+Ability: Cursed Body  
+Tera Type: Ghost  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Sludge Bomb  
+- Focus Blast  
+- Trick  
+
+MARIONETTE (Tinkaton) @ Leftovers  
+Ability: Mold Breaker  
+Tera Type: Fairy  
+EVs: 252 HP / 176 SpD / 80 Spe  
+Careful Nature  
+- Gigaton Hammer  
+- Knock Off  
+- Stealth Rock  
+- Protect  
+
+ICARUS (Talonflame) @ Heavy-Duty Boots  
+Ability: Flame Body  
+Tera Type: Ghost  
+EVs: 248 HP / 124 Def / 136 Spe  
+Timid Nature  
+- Flamethrower  
+- U-turn  
+- Roost  
+- Defog  
+
+SHOTGUN & HEAD (Sandy Shocks) @ Choice Scarf  
+Ability: Protosynthesis  
+Tera Type: Grass  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Earth Power  
+- Volt Switch  
+- Tera Blast  
+
+STOLZ (Slither Wing) @ Choice Band  
+Ability: Protosynthesis  
+Tera Type: Bug  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- First Impression  
+- Close Combat  
+- Flare Blitz  
+- U-turn  
+</textarea>
+                        </div>
+                        <button class="uu-btn-action" id="uu-copy-link-btn-2">Copier le lien</button>
+                        <span class="uu-copy-msg" id="uu-copy-msg-2" style="display:none;">Lien copié dans le presse-papier</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <script>
-        const natdexBtn = document.getElementById('natdex-btn');
-        const natdexPopup = document.getElementById('natdex-popup');
-        const closeNatdex = document.getElementById('close-popup');
-        natdexBtn.addEventListener('click', () => {
-            natdexPopup.style.display = 'flex';
-            // Ajout des listeners pour les boutons de chaque case
-            // Case 1
-            const byBtn1 = document.getElementById('by-btn-1');
-            const byBlock1 = document.getElementById('by-block-1');
-            if (byBtn1 && byBlock1) {
-                byBtn1.onclick = function() {
-                    byBlock1.style.display = byBlock1.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const setsBtn1 = document.getElementById('sets-btn-1');
-            const setsBlock1 = document.getElementById('sets-block-1');
-            if (setsBtn1 && setsBlock1) {
-                setsBtn1.onclick = function() {
-                    setsBlock1.style.display = setsBlock1.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const copyBtn1 = document.getElementById('copy-link-btn-1');
-            const copyMsg1 = document.getElementById('copy-msg-1');
-            if (copyBtn1 && copyMsg1) {
-                copyBtn1.onclick = function() {
-                    navigator.clipboard.writeText('https://pokepast.es/ce9fe5553cac2aa3');
-                    copyMsg1.style.display = 'inline';
-                    setTimeout(() => { copyMsg1.style.display = 'none'; }, 1800);
-                };
-            }
-            // Case 2
-            const byBtn2 = document.getElementById('by-btn-2');
-            const byBlock2 = document.getElementById('by-block-2');
-            if (byBtn2 && byBlock2) {
-                byBtn2.onclick = function() {
-                    byBlock2.style.display = byBlock2.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const setsBtn2 = document.getElementById('sets-btn-2');
-            const setsBlock2 = document.getElementById('sets-block-2');
-            if (setsBtn2 && setsBlock2) {
-                setsBtn2.onclick = function() {
-                    setsBlock2.style.display = setsBlock2.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const copyBtn2 = document.getElementById('copy-link-btn-2');
-            const copyMsg2 = document.getElementById('copy-msg-2');
-            if (copyBtn2 && copyMsg2) {
-                copyBtn2.onclick = function() {
-                    navigator.clipboard.writeText('https://pokepast.es/4663d55eca6574d0');
-                    copyMsg2.style.display = 'inline';
-                    setTimeout(() => { copyMsg2.style.display = 'none'; }, 1800);
-                };
-            }
-            // Case 3
-            const byBtn3 = document.getElementById('by-btn-3');
-            const byBlock3 = document.getElementById('by-block-3');
-            if (byBtn3 && byBlock3) {
-                byBtn3.onclick = function() {
-                    byBlock3.style.display = byBlock3.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const setsBtn3 = document.getElementById('sets-btn-3');
-            const setsBlock3 = document.getElementById('sets-block-3');
-            if (setsBtn3 && setsBlock3) {
-                setsBtn3.onclick = function() {
-                    setsBlock3.style.display = setsBlock3.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const copyBtn3 = document.getElementById('copy-link-btn-3');
-            const copyMsg3 = document.getElementById('copy-msg-3');
-            if (copyBtn3 && copyMsg3) {
-                copyBtn3.onclick = function() {
-                    navigator.clipboard.writeText('https://pokepast.es/3b4b33a0bc46e266');
-                    copyMsg3.style.display = 'inline';
-                    setTimeout(() => { copyMsg3.style.display = 'none'; }, 1800);
-                };
-            }
-            // Case 4
-            const byBtn4 = document.getElementById('by-btn-4');
-            const byBlock4 = document.getElementById('by-block-4');
-            if (byBtn4 && byBlock4) {
-                byBtn4.onclick = function() {
-                    byBlock4.style.display = byBlock4.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const setsBtn4 = document.getElementById('sets-btn-4');
-            const setsBlock4 = document.getElementById('sets-block-4');
-            if (setsBtn4 && setsBlock4) {
-                setsBtn4.onclick = function() {
-                    setsBlock4.style.display = setsBlock4.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const copyBtn4 = document.getElementById('copy-link-btn-4');
-            const copyMsg4 = document.getElementById('copy-msg-4');
-            if (copyBtn4 && copyMsg4) {
-                copyBtn4.onclick = function() {
-                    navigator.clipboard.writeText('https://pokepast.es/37c353635ce4b598');
-                    copyMsg4.style.display = 'inline';
-                    setTimeout(() => { copyMsg4.style.display = 'none'; }, 1800);
-                };
-            }
-            // Case 5
-            const byBtn5 = document.getElementById('by-btn-5');
-            const byBlock5 = document.getElementById('by-block-5');
-            if (byBtn5 && byBlock5) {
-                byBtn5.onclick = function() {
-                    byBlock5.style.display = byBlock5.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const setsBtn5 = document.getElementById('sets-btn-5');
-            const setsBlock5 = document.getElementById('sets-block-5');
-            if (setsBtn5 && setsBlock5) {
-                setsBtn5.onclick = function() {
-                    setsBlock5.style.display = setsBlock5.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const copyBtn5 = document.getElementById('copy-link-btn-5');
-            const copyMsg5 = document.getElementById('copy-msg-5');
-            if (copyBtn5 && copyMsg5) {
-                copyBtn5.onclick = function() {
-                    navigator.clipboard.writeText('https://pokepast.es/eea5fdda11271dd1');
-                    copyMsg5.style.display = 'inline';
-                    setTimeout(() => { copyMsg5.style.display = 'none'; }, 1800);
-                };
-            }
-            // Case 6
-            const byBtn6 = document.getElementById('by-btn-6');
-            const byBlock6 = document.getElementById('by-block-6');
-            if (byBtn6 && byBlock6) {
-                byBtn6.onclick = function() {
-                    byBlock6.style.display = byBlock6.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const setsBtn6 = document.getElementById('sets-btn-6');
-            const setsBlock6 = document.getElementById('sets-block-6');
-            if (setsBtn6 && setsBlock6) {
-                setsBtn6.onclick = function() {
-                    setsBlock6.style.display = setsBlock6.style.display === 'none' ? 'block' : 'none';
-                };
-            }
-            const copyBtn6 = document.getElementById('copy-link-btn-6');
-            const copyMsg6 = document.getElementById('copy-msg-6');
-            if (copyBtn6 && copyMsg6) {
-                copyBtn6.onclick = function() {
-                    navigator.clipboard.writeText('https://pokepast.es/188d72baa60a5b0f');
-                    copyMsg6.style.display = 'inline';
-                    setTimeout(() => { copyMsg6.style.display = 'none'; }, 1800);
-                };
-            }
-        });
-        closeNatdex.addEventListener('click', () => {
-            natdexPopup.style.display = 'none';
-        });
-        window.addEventListener('click', (e) => {
-            if (e.target === natdexPopup) {
+        document.addEventListener('DOMContentLoaded', function() {
+            const natdexBtn = document.getElementById('natdex-btn');
+            const natdexPopup = document.getElementById('natdex-popup');
+            const closeNatdex = document.getElementById('close-popup');
+            natdexBtn.addEventListener('click', () => {
+                natdexPopup.style.display = 'flex';
+                // Ajout des listeners pour les boutons de chaque case
+                // Case 1
+                const byBtn1 = document.getElementById('by-btn-1');
+                const byBlock1 = document.getElementById('by-block-1');
+                if (byBtn1 && byBlock1) {
+                    byBtn1.onclick = function() {
+                        byBlock1.style.display = byBlock1.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const setsBtn1 = document.getElementById('sets-btn-1');
+                const setsBlock1 = document.getElementById('sets-block-1');
+                if (setsBtn1 && setsBlock1) {
+                    setsBtn1.onclick = function() {
+                        setsBlock1.style.display = setsBlock1.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const copyBtn1 = document.getElementById('copy-link-btn-1');
+                const copyMsg1 = document.getElementById('copy-msg-1');
+                if (copyBtn1 && copyMsg1) {
+                    copyBtn1.onclick = function() {
+                        navigator.clipboard.writeText('https://pokepast.es/ce9fe5553cac2aa3');
+                        copyMsg1.style.display = 'inline';
+                        setTimeout(() => { copyMsg1.style.display = 'none'; }, 1800);
+                    };
+                }
+                // Case 2
+                const byBtn2 = document.getElementById('by-btn-2');
+                const byBlock2 = document.getElementById('by-block-2');
+                if (byBtn2 && byBlock2) {
+                    byBtn2.onclick = function() {
+                        byBlock2.style.display = byBlock2.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const setsBtn2 = document.getElementById('sets-btn-2');
+                const setsBlock2 = document.getElementById('sets-block-2');
+                if (setsBtn2 && setsBlock2) {
+                    setsBtn2.onclick = function() {
+                        setsBlock2.style.display = setsBlock2.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const copyBtn2 = document.getElementById('copy-link-btn-2');
+                const copyMsg2 = document.getElementById('copy-msg-2');
+                if (copyBtn2 && copyMsg2) {
+                    copyBtn2.onclick = function() {
+                        navigator.clipboard.writeText('https://pokepast.es/4663d55eca6574d0');
+                        copyMsg2.style.display = 'inline';
+                        setTimeout(() => { copyMsg2.style.display = 'none'; }, 1800);
+                    };
+                }
+                // Case 3
+                const byBtn3 = document.getElementById('by-btn-3');
+                const byBlock3 = document.getElementById('by-block-3');
+                if (byBtn3 && byBlock3) {
+                    byBtn3.onclick = function() {
+                        byBlock3.style.display = byBlock3.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const setsBtn3 = document.getElementById('sets-btn-3');
+                const setsBlock3 = document.getElementById('sets-block-3');
+                if (setsBtn3 && setsBlock3) {
+                    setsBtn3.onclick = function() {
+                        setsBlock3.style.display = setsBlock3.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const copyBtn3 = document.getElementById('copy-link-btn-3');
+                const copyMsg3 = document.getElementById('copy-msg-3');
+                if (copyBtn3 && copyMsg3) {
+                    copyBtn3.onclick = function() {
+                        navigator.clipboard.writeText('https://pokepast.es/3b4b33a0bc46e266');
+                        copyMsg3.style.display = 'inline';
+                        setTimeout(() => { copyMsg3.style.display = 'none'; }, 1800);
+                    };
+                }
+                // Case 4
+                const byBtn4 = document.getElementById('by-btn-4');
+                const byBlock4 = document.getElementById('by-block-4');
+                if (byBtn4 && byBlock4) {
+                    byBtn4.onclick = function() {
+                        byBlock4.style.display = byBlock4.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const setsBtn4 = document.getElementById('sets-btn-4');
+                const setsBlock4 = document.getElementById('sets-block-4');
+                if (setsBtn4 && setsBlock4) {
+                    setsBtn4.onclick = function() {
+                        setsBlock4.style.display = setsBlock4.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const copyBtn4 = document.getElementById('copy-link-btn-4');
+                const copyMsg4 = document.getElementById('copy-msg-4');
+                if (copyBtn4 && copyMsg4) {
+                    copyBtn4.onclick = function() {
+                        navigator.clipboard.writeText('https://pokepast.es/37c353635ce4b598');
+                        copyMsg4.style.display = 'inline';
+                        setTimeout(() => { copyMsg4.style.display = 'none'; }, 1800);
+                    };
+                }
+                // Case 5
+                const byBtn5 = document.getElementById('by-btn-5');
+                const byBlock5 = document.getElementById('by-block-5');
+                if (byBtn5 && byBlock5) {
+                    byBtn5.onclick = function() {
+                        byBlock5.style.display = byBlock5.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const setsBtn5 = document.getElementById('sets-btn-5');
+                const setsBlock5 = document.getElementById('sets-block-5');
+                if (setsBtn5 && setsBlock5) {
+                    setsBtn5.onclick = function() {
+                        setsBlock5.style.display = setsBlock5.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const copyBtn5 = document.getElementById('copy-link-btn-5');
+                const copyMsg5 = document.getElementById('copy-msg-5');
+                if (copyBtn5 && copyMsg5) {
+                    copyBtn5.onclick = function() {
+                        navigator.clipboard.writeText('https://pokepast.es/a5f6071f3e763e3c');
+                        copyMsg5.style.display = 'inline';
+                        setTimeout(() => { copyMsg5.style.display = 'none'; }, 1800);
+                    };
+                }
+                // Case 6
+                const byBtn6 = document.getElementById('by-btn-6');
+                const byBlock6 = document.getElementById('by-block-6');
+                if (byBtn6 && byBlock6) {
+                    byBtn6.onclick = function() {
+                        byBlock6.style.display = byBlock6.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const setsBtn6 = document.getElementById('sets-btn-6');
+                const setsBlock6 = document.getElementById('sets-block-6');
+                if (setsBtn6 && setsBlock6) {
+                    setsBtn6.onclick = function() {
+                        setsBlock6.style.display = setsBlock6.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const copyBtn6 = document.getElementById('copy-link-btn-6');
+                const copyMsg6 = document.getElementById('copy-msg-6');
+                if (copyBtn6 && copyMsg6) {
+                    copyBtn6.onclick = function() {
+                        navigator.clipboard.writeText('https://pokepast.es/188d72baa60a5b0f');
+                        copyMsg6.style.display = 'inline';
+                        setTimeout(() => { copyMsg6.style.display = 'none'; }, 1800);
+                    };
+                }
+                // Case 7
+                const byBtn7 = document.getElementById('by-btn-7');
+                const byBlock7 = document.getElementById('by-block-7');
+                if (byBtn7 && byBlock7) {
+                    byBtn7.onclick = function() {
+                        byBlock7.style.display = byBlock7.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const setsBtn7 = document.getElementById('sets-btn-7');
+                const setsBlock7 = document.getElementById('sets-block-7');
+                if (setsBtn7 && setsBlock7) {
+                    setsBtn7.onclick = function() {
+                        setsBlock7.style.display = setsBlock7.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const copyBtn7 = document.getElementById('copy-link-btn-7');
+                const copyMsg7 = document.getElementById('copy-msg-7');
+                if (copyBtn7 && copyMsg7) {
+                    copyBtn7.onclick = function() {
+                        navigator.clipboard.writeText('https://pokepast.es/6fa088f6b66c8bca');
+                        copyMsg7.style.display = 'inline';
+                        setTimeout(() => { copyMsg7.style.display = 'none'; }, 1800);
+                    };
+                }
+                // Case 8
+                const byBtn8 = document.getElementById('by-btn-8');
+                const byBlock8 = document.getElementById('by-block-8');
+                if (byBtn8 && byBlock8) {
+                    byBtn8.onclick = function() {
+                        byBlock8.style.display = byBlock8.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const setsBtn8 = document.getElementById('sets-btn-8');
+                const setsBlock8 = document.getElementById('sets-block-8');
+                if (setsBtn8 && setsBlock8) {
+                    setsBtn8.onclick = function() {
+                        setsBlock8.style.display = setsBlock8.style.display === 'none' ? 'block' : 'none';
+                    };
+                }
+                const copyBtn8 = document.getElementById('copy-link-btn-8');
+                const copyMsg8 = document.getElementById('copy-msg-8');
+                if (copyBtn8 && copyMsg8) {
+                    copyBtn8.onclick = function() {
+                        navigator.clipboard.writeText('https://pokepast.es/078e4ff130f11912');
+                        copyMsg8.style.display = 'inline';
+                        setTimeout(() => { copyMsg8.style.display = 'none'; }, 1800);
+                    };
+                }
+            });
+            closeNatdex.addEventListener('click', () => {
                 natdexPopup.style.display = 'none';
+            });
+            window.addEventListener('click', (e) => {
+                if (e.target === natdexPopup) {
+                    natdexPopup.style.display = 'none';
+                }
+            });
+            // Popup OU
+            const ouBtn = document.getElementById('ou-btn');
+            const ouPopup = document.getElementById('ou-popup');
+            const closeOu = document.getElementById('close-ou-popup');
+            if (ouBtn && ouPopup && closeOu) {
+                ouBtn.addEventListener('click', () => {
+                    ouPopup.style.display = 'flex';
+                    // Listeners pour la case 1 OU
+                    const byBtn = document.getElementById('ou-by-btn-1');
+                    const byBlock = document.getElementById('ou-by-block-1');
+                    if (byBtn && byBlock) {
+                        byBtn.onclick = function() {
+                            byBlock.style.display = byBlock.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const setsBtn = document.getElementById('ou-sets-btn-1');
+                    const setsBlock = document.getElementById('ou-sets-block-1');
+                    if (setsBtn && setsBlock) {
+                        setsBtn.onclick = function() {
+                            setsBlock.style.display = setsBlock.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const copyBtn = document.getElementById('ou-copy-link-btn-1');
+                    const copyMsg = document.getElementById('ou-copy-msg-1');
+                    if (copyBtn && copyMsg) {
+                        copyBtn.onclick = function() {
+                            navigator.clipboard.writeText('https://pokepast.es/f746d57d8562e8a2');
+                            copyMsg.style.display = 'inline';
+                            setTimeout(() => { copyMsg.style.display = 'none'; }, 1800);
+                        };
+                    }
+                    // Listeners pour la case 2 OU
+                    const byBtn2 = document.getElementById('ou-by-btn-2');
+                    const byBlock2 = document.getElementById('ou-by-block-2');
+                    if (byBtn2 && byBlock2) {
+                        byBtn2.onclick = function() {
+                            byBlock2.style.display = byBlock2.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const setsBtn2 = document.getElementById('ou-sets-btn-2');
+                    const setsBlock2 = document.getElementById('ou-sets-block-2');
+                    if (setsBtn2 && setsBlock2) {
+                        setsBtn2.onclick = function() {
+                            setsBlock2.style.display = setsBlock2.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const copyBtn2 = document.getElementById('ou-copy-link-btn-2');
+                    const copyMsg2 = document.getElementById('ou-copy-msg-2');
+                    if (copyBtn2 && copyMsg2) {
+                        copyBtn2.onclick = function() {
+                            navigator.clipboard.writeText('https://pokepast.es/3c828d8d4620028a');
+                            copyMsg2.style.display = 'inline';
+                            setTimeout(() => { copyMsg2.style.display = 'none'; }, 1800);
+                        };
+                    }
+                    // Listeners pour la case 3 OU
+                    const byBtn3 = document.getElementById('ou-by-btn-3');
+                    const byBlock3 = document.getElementById('ou-by-block-3');
+                    if (byBtn3 && byBlock3) {
+                        byBtn3.onclick = function() {
+                            byBlock3.style.display = byBlock3.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const setsBtn3 = document.getElementById('ou-sets-btn-3');
+                    const setsBlock3 = document.getElementById('ou-sets-block-3');
+                    if (setsBtn3 && setsBlock3) {
+                        setsBtn3.onclick = function() {
+                            setsBlock3.style.display = setsBlock3.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const copyBtn3 = document.getElementById('ou-copy-link-btn-3');
+                    const copyMsg3 = document.getElementById('ou-copy-msg-3');
+                    if (copyBtn3 && copyMsg3) {
+                        copyBtn3.onclick = function() {
+                            navigator.clipboard.writeText('https://pokepast.es/efa8f64c4020387b');
+                            copyMsg3.style.display = 'inline';
+                            setTimeout(() => { copyMsg3.style.display = 'none'; }, 1800);
+                        };
+                    }
+                    // Listeners pour la case 4 OU
+                    const byBtn4 = document.getElementById('ou-by-btn-4');
+                    const byBlock4 = document.getElementById('ou-by-block-4');
+                    if (byBtn4 && byBlock4) {
+                        byBtn4.onclick = function() {
+                            byBlock4.style.display = byBlock4.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const setsBtn4 = document.getElementById('ou-sets-btn-4');
+                    const setsBlock4 = document.getElementById('ou-sets-block-4');
+                    if (setsBtn4 && setsBlock4) {
+                        setsBtn4.onclick = function() {
+                            setsBlock4.style.display = setsBlock4.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const copyBtn4 = document.getElementById('ou-copy-link-btn-4');
+                    const copyMsg4 = document.getElementById('ou-copy-msg-4');
+                    if (copyBtn4 && copyMsg4) {
+                        copyBtn4.onclick = function() {
+                            navigator.clipboard.writeText('https://pokepast.es/38c87a1731a51bfb');
+                            copyMsg4.style.display = 'inline';
+                            setTimeout(() => { copyMsg4.style.display = 'none'; }, 1800);
+                        };
+                    }
+                    // Listeners pour la case 5 OU
+                    const byBtn5 = document.getElementById('ou-by-btn-5');
+                    const byBlock5 = document.getElementById('ou-by-block-5');
+                    if (byBtn5 && byBlock5) {
+                        byBtn5.onclick = function() {
+                            byBlock5.style.display = byBlock5.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const setsBtn5 = document.getElementById('ou-sets-btn-5');
+                    const setsBlock5 = document.getElementById('ou-sets-block-5');
+                    if (setsBtn5 && setsBlock5) {
+                        setsBtn5.onclick = function() {
+                            setsBlock5.style.display = setsBlock5.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const copyBtn5 = document.getElementById('ou-copy-link-btn-5');
+                    const copyMsg5 = document.getElementById('ou-copy-msg-5');
+                    if (copyBtn5 && copyMsg5) {
+                        copyBtn5.onclick = function() {
+                            navigator.clipboard.writeText('https://pokepast.es/a5f6071f3e763e3c');
+                            copyMsg5.style.display = 'inline';
+                            setTimeout(() => { copyMsg5.style.display = 'none'; }, 1800);
+                        };
+                    }
+                });
+                closeOu.addEventListener('click', () => {
+                    ouPopup.style.display = 'none';
+                });
+                window.addEventListener('click', (e) => {
+                    if (e.target === ouPopup) {
+                        ouPopup.style.display = 'none';
+                    }
+                });
+            }
+            // Popup NU
+            const nuBtn = document.querySelector('.loading-section li:last-child');
+            const nuPopup = document.getElementById('nu-popup');
+            const closeNu = document.getElementById('close-nu-popup');
+            if (nuBtn && nuPopup && closeNu) {
+                nuBtn.style.cursor = 'pointer';
+                nuBtn.style.fontWeight = 'bold';
+                nuBtn.addEventListener('click', () => {
+                    nuPopup.style.display = 'flex';
+                    // Listeners pour la case 1 NU
+                    const byBtnNu1 = document.getElementById('nu-by-btn-1');
+                    const byBlockNu1 = document.getElementById('nu-by-block-1');
+                    if (byBtnNu1 && byBlockNu1) {
+                        byBtnNu1.onclick = function() {
+                            byBlockNu1.style.display = byBlockNu1.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const setsBtnNu1 = document.getElementById('nu-sets-btn-1');
+                    const setsBlockNu1 = document.getElementById('nu-sets-block-1');
+                    if (setsBtnNu1 && setsBlockNu1) {
+                        setsBtnNu1.onclick = function() {
+                            setsBlockNu1.style.display = setsBlockNu1.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const copyBtnNu1 = document.getElementById('nu-copy-link-btn-1');
+                    const copyMsgNu1 = document.getElementById('nu-copy-msg-1');
+                    if (copyBtnNu1 && copyMsgNu1) {
+                        copyBtnNu1.onclick = function() {
+                            navigator.clipboard.writeText('https://pokepast.es/a97b6b1c80c104ac');
+                            copyMsgNu1.style.display = 'inline';
+                            setTimeout(() => { copyMsgNu1.style.display = 'none'; }, 1800);
+                        };
+                    }
+                    // Listeners pour la case 2 NU
+                    const byBtnNu2 = document.getElementById('nu-by-btn-2');
+                    const byBlockNu2 = document.getElementById('nu-by-block-2');
+                    if (byBtnNu2 && byBlockNu2) {
+                        byBtnNu2.onclick = function() {
+                            byBlockNu2.style.display = byBlockNu2.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const setsBtnNu2 = document.getElementById('nu-sets-btn-2');
+                    const setsBlockNu2 = document.getElementById('nu-sets-block-2');
+                    if (setsBtnNu2 && setsBlockNu2) {
+                        setsBtnNu2.onclick = function() {
+                            setsBlockNu2.style.display = setsBlockNu2.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const copyBtnNu2 = document.getElementById('nu-copy-link-btn-2');
+                    const copyMsgNu2 = document.getElementById('nu-copy-msg-2');
+                    if (copyBtnNu2 && copyMsgNu2) {
+                        copyBtnNu2.onclick = function() {
+                            navigator.clipboard.writeText('https://pokepast.es/2496ffffdacbc864');
+                            copyMsgNu2.style.display = 'inline';
+                            setTimeout(() => { copyMsgNu2.style.display = 'none'; }, 1800);
+                        };
+                    }
+                });
+                closeNu.addEventListener('click', () => {
+                    nuPopup.style.display = 'none';
+                });
+                window.addEventListener('click', (e) => {
+                    if (e.target === nuPopup) {
+                        nuPopup.style.display = 'none';
+                    }
+                });
+            }
+            // Popup UU
+            const uuBtn = document.querySelector('.loading-section li:nth-child(4)');
+            const uuPopup = document.getElementById('uu-popup');
+            const closeUu = document.getElementById('close-uu-popup');
+            if (uuBtn && uuPopup && closeUu) {
+                uuBtn.style.cursor = 'pointer';
+                uuBtn.style.fontWeight = 'bold';
+                uuBtn.addEventListener('click', () => {
+                    uuPopup.style.display = 'flex';
+                    // Listeners pour la case 1 UU
+                    const byBtnUu1 = document.getElementById('uu-by-btn-1');
+                    const byBlockUu1 = document.getElementById('uu-by-block-1');
+                    if (byBtnUu1 && byBlockUu1) {
+                        byBtnUu1.onclick = function() {
+                            byBlockUu1.style.display = byBlockUu1.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const setsBtnUu1 = document.getElementById('uu-sets-btn-1');
+                    const setsBlockUu1 = document.getElementById('uu-sets-block-1');
+                    if (setsBtnUu1 && setsBlockUu1) {
+                        setsBtnUu1.onclick = function() {
+                            setsBlockUu1.style.display = setsBlockUu1.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const copyBtnUu1 = document.getElementById('uu-copy-link-btn-1');
+                    const copyMsgUu1 = document.getElementById('uu-copy-msg-1');
+                    if (copyBtnUu1 && copyMsgUu1) {
+                        copyBtnUu1.onclick = function() {
+                            navigator.clipboard.writeText('https://pokepast.es/09bc757c404b557b');
+                            copyMsgUu1.style.display = 'inline';
+                            setTimeout(() => { copyMsgUu1.style.display = 'none'; }, 1800);
+                        };
+                    }
+                    // Listeners pour la case 2 UU
+                    const byBtnUu2 = document.getElementById('uu-by-btn-2');
+                    const byBlockUu2 = document.getElementById('uu-by-block-2');
+                    if (byBtnUu2 && byBlockUu2) {
+                        byBtnUu2.onclick = function() {
+                            byBlockUu2.style.display = byBlockUu2.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const setsBtnUu2 = document.getElementById('uu-sets-btn-2');
+                    const setsBlockUu2 = document.getElementById('uu-sets-block-2');
+                    if (setsBtnUu2 && setsBlockUu2) {
+                        setsBtnUu2.onclick = function() {
+                            setsBlockUu2.style.display = setsBlockUu2.style.display === 'none' ? 'block' : 'none';
+                        };
+                    }
+                    const copyBtnUu2 = document.getElementById('uu-copy-link-btn-2');
+                    const copyMsgUu2 = document.getElementById('uu-copy-msg-2');
+                    if (copyBtnUu2 && copyMsgUu2) {
+                        copyBtnUu2.onclick = function() {
+                            navigator.clipboard.writeText('https://pokepast.es/035049576d8cb9bb');
+                            copyMsgUu2.style.display = 'inline';
+                            setTimeout(() => { copyMsgUu2.style.display = 'none'; }, 1800);
+                        };
+                    }
+                });
+                closeUu.addEventListener('click', () => {
+                    uuPopup.style.display = 'none';
+                });
+                window.addEventListener('click', (e) => {
+                    if (e.target === uuPopup) {
+                        uuPopup.style.display = 'none';
+                    }
+                });
             }
         });
-        // Info popup
-        const moreInfoBtn = document.getElementById('more-info-btn');
-        const infoPopup = document.getElementById('info-popup');
-        const closeInfoPopup = document.getElementById('close-info-popup');
-        moreInfoBtn.addEventListener('click', () => {
-            infoPopup.style.display = 'flex';
-        });
-        closeInfoPopup.addEventListener('click', () => {
-            infoPopup.style.display = 'none';
-        });
-        window.addEventListener('click', (e) => {
-            if (e.target === infoPopup) {
-                infoPopup.style.display = 'none';
-            }
-        });
-        // Sets button principal
-        const showSets = document.getElementById('show-sets');
-        const setsBlock = document.getElementById('sets-block');
-        if (showSets && setsBlock) {
-            showSets.addEventListener('click', () => {
-                setsBlock.style.display = setsBlock.style.display === 'none' ? 'block' : 'none';
-            });
-        }
-        // Copier le lien principal
-        const copyLinkBtn = document.getElementById('copy-link-btn');
-        const copyMsg = document.getElementById('copy-msg');
-        if (copyLinkBtn && copyMsg) {
-            copyLinkBtn.addEventListener('click', () => {
-                navigator.clipboard.writeText('https://pokepast.es/ce9fe5553cac2aa3');
-                copyMsg.style.display = 'inline';
-                setTimeout(() => { copyMsg.style.display = 'none'; }, 1800);
-            });
-        }
-        // Sets button info popup
-        const showSetsInfo = document.getElementById('show-sets-info');
-        const setsBlockInfo = document.getElementById('sets-block-info');
-        if (showSetsInfo && setsBlockInfo) {
-            showSetsInfo.addEventListener('click', () => {
-                setsBlockInfo.style.display = setsBlockInfo.style.display === 'none' ? 'block' : 'none';
-            });
-        }
-        // Copier le lien info popup
-        const copyLinkBtnInfo = document.getElementById('copy-link-btn-info');
-        const copyMsgInfo = document.getElementById('copy-msg-info');
-        if (copyLinkBtnInfo && copyMsgInfo) {
-            copyLinkBtnInfo.addEventListener('click', () => {
-                navigator.clipboard.writeText('https://pokepast.es/ce9fe5553cac2aa3');
-                copyMsgInfo.style.display = 'inline';
-                setTimeout(() => { copyMsgInfo.style.display = 'none'; }, 1800);
-            });
-        }
-        // Boutons NATDEX popup
-        const showSetsNatdex = document.getElementById('show-sets-natdex');
-        const setsBlockNatdex = document.getElementById('sets-block-natdex');
-        if (showSetsNatdex && setsBlockNatdex) {
-            showSetsNatdex.addEventListener('click', () => {
-                setsBlockNatdex.style.display = setsBlockNatdex.style.display === 'none' ? 'block' : 'none';
-            });
-        }
-        const copyLinkBtnNatdex = document.getElementById('copy-link-btn-natdex');
-        const copyMsgNatdex = document.getElementById('copy-msg-natdex');
-        if (copyLinkBtnNatdex && copyMsgNatdex) {
-            copyLinkBtnNatdex.addEventListener('click', () => {
-                navigator.clipboard.writeText('https://pokepast.es/ce9fe5553cac2aa3');
-                copyMsgNatdex.style.display = 'inline';
-                setTimeout(() => { copyMsgNatdex.style.display = 'none'; }, 1800);
-            });
-        }
     </script>
 </body>
 </html> 
